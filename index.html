@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ramar Bose — AI Specialist & Trainer</title>
+  <meta name="description" content="Ramar Bose — AI Specialist, Trainer, PhD candidate. Portfolio / Resume." />
+
+  <!-- Simple modern CSS (single-file) -->
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#9aa4b2;
+      --accent:#7dd3fc;
+      --glass: rgba(255,255,255,0.03);
+      --maxw:1000px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,#071026 0%, #071221 60%);
+      color:#e6eef6;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:28px;
+      display:flex;
+      justify-content:center;
+      font-size:16px;
+      line-height:1.45;
+    }
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;
+      padding:28px;
+      box-shadow: 0 8px 30px rgba(2,6,23,0.7);
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .header{
+      display:flex;
+      gap:20px;
+      align-items:center;
+    }
+    .avatar{
+      width:110px;
+      height:110px;
+      border-radius:12px;
+      background:linear-gradient(135deg,#0ea5e9,#6366f1);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:700;
+      font-size:28px;
+      color:#041022;
+      flex-shrink:0;
+      box-shadow: 0 6px 18px rgba(4,8,20,0.6);
+    }
+    .title{
+      flex:1;
+    }
+    .title h1{
+      margin:0 0 6px 0;
+      font-size:22px;
+      letter-spacing:0.2px;
+    }
+    .title p{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .badges{margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;}
+    .badge{
+      background:var(--glass);
+      color:var(--accent);
+      padding:6px 10px;
+      border-radius:999px;
+      font-size:13px;
+      border:1px solid rgba(125,211,252,0.08);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:22px;
+      margin-top:22px;
+    }
+
+    /* left column cards */
+    .card{
+      background:rgba(255,255,255,0.02);
+      border-radius:10px;
+      padding:18px;
+      border:1px solid rgba(255,255,255,0.02);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.01);
+    }
+    h2{margin:0 0 12px 0; font-size:16px}
+    .muted{color:var(--muted); font-size:14px}
+
+    .section + .section { margin-top:14px; }
+
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    .contact-list a{color:var(--accent); text-decoration:none; font-weight:600; font-size:14px}
+
+    .experience-item{margin-bottom:12px}
+    .experience-item h3{margin:0;font-size:15px}
+    .meta{color:var(--muted); font-size:13px; margin-bottom:6px}
+    ul.plist{margin:6px 0 0 18px; color:var(--muted)}
+
+    .skills {display:flex;flex-wrap:wrap; gap:8px}
+    .skill {background:rgba(255,255,255,0.03); padding:6px 10px; border-radius:8px; font-size:13px; color:var(--muted)}
+
+    .project {margin-bottom:10px}
+    .projects-grid{display:flex;flex-direction:column; gap:8px}
+
+    .right-col{position:relative}
+    .card.small{padding:12px}
+    .download-resume{display:inline-block; padding:10px 14px; border-radius:8px; background:linear-gradient(90deg,var(--accent),#60a5fa); color:#041022; font-weight:700; text-decoration:none; margin-top:8px}
+    .socials{display:flex; gap:10px; margin-top:12px}
+    .socials a{color:var(--muted); text-decoration:none; font-weight:600; font-size:13px}
+
+    footer{margin-top:22px; text-align:center; color:var(--muted); font-size:13px}
+
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr; }
+      .right-col{order:2}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header class="header">
+      <div class="avatar" aria-hidden="true">RB</div>
+      <div class="title">
+        <h1>Ramar Bose</h1>
+        <p class="muted">Seasoned AI Specialist & Trainer — PhD candidate (Generative & Agentic AI). 10+ years in AI, ML, Generative AI, Curriculum design, & training.</p>
+
+        <div class="badges" aria-hidden="true">
+          <span class="badge">AI / ML</span>
+          <span class="badge">Generative AI</span>
+          <span class="badge">NLP & CV</span>
+          <span class="badge">Curriculum Design</span>
+        </div>
+      </div>
+
+      <!-- quick contact -->
+      <div style="text-align:right; min-width:165px">
+        <div class="muted">Madurai, Tamilnadu, India</div>
+        <div style="margin-top:6px">
+          <a href="tel:+919790843015" class="download-resume">+91 9790843015</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid" style="margin-top:18px">
+      <!-- Left column (main content) -->
+      <section>
+        <div class="card section">
+          <h2>About</h2>
+          <p class="muted">
+            Seasoned AI Specialist and Trainer with 10+ years of experience in Artificial Intelligence, Machine Learning, Generative AI, and Agentic AI.
+            Expertise in curriculum design, deep learning, NLP, and data analytics. Trained 13,000+ students, faculty, and professionals nationwide.
+          </p>
+        </div>
+
+        <div class="card section">
+          <h2>Professional Experience</h2>
+
+          <div class="experience-item">
+            <h3>Lead Content & Quality – AI/ML</h3>
+            <div class="meta">Edunet Foundation — 2021 – Present</div>
+            <ul class="plist muted">
+              <li>Lead AI/ML curriculum and quality initiatives across academia and industry.</li>
+              <li>Designed 50+ project-based learning modules and supervised content teams.</li>
+              <li>Conducted workshops and training on AI, ML, and Generative AI.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3>Faculty – Computer Science (AI & Data Science)</h3>
+            <div class="meta">Centre for Distance Education, Anna University — 2020 – 2021</div>
+            <ul class="plist muted">
+              <li>Taught Information Management (DBA 502), Data Mining & BI (DBA 5018), E-Business Management (DBA 5016).</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3>Resource Faculty – Quality Management & Data Analytics</h3>
+            <div class="meta">AU TVS CQM, Anna University — 2017 – 2019</div>
+            <ul class="plist muted">
+              <li>Conducted AI awareness & data analytics workshops; designed corporate training on ML and Quality Systems.</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3>Website Developer</h3>
+            <div class="meta">AU TVS CQM, Anna University — 2015 – 2017</div>
+            <ul class="plist muted">
+              <li>Designed and maintained institutional websites using HTML, CSS, JavaScript, and PHP; automated reports and data tracking.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Selected Projects</h2>
+          <div class="projects-grid">
+            <div class="project">
+              <strong>Generative AI — Text-to-Image Synthesis</strong>
+              <div class="muted">Built GAN/Diffusion models for automated content creation.</div>
+            </div>
+            <div class="project">
+              <strong>Agentic AI Chatbot for Personalized Learning</strong>
+              <div class="muted">Developed an interactive NLP-based learning agent.</div>
+            </div>
+            <div class="project">
+              <strong>Multi-Agent System — Smart Traffic Management</strong>
+              <div class="muted">Reinforcement learning for adaptive traffic signals.</div>
+            </div>
+            <div class="project">
+              <strong>IQAC — Quality Sustenance & Enhancement Plan</strong>
+              <div class="muted">Dynamic system for monitoring academic quality metrics.</div>
+            </div>
+            <div class="project">
+              <strong>ICQTI 2015 — Conference Website</strong>
+              <div class="muted">Built static site for paper submission and registration.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h2>Publications (selected)</h2>
+          <ul class="plist muted">
+            <li>A Framework for Data Cleaning in a Data Warehouse Using XML Constraint and Smart Tokens</li>
+            <li>Chemical-Sensitive Soil Taxonomy Modulator: IoT Applications</li>
+            <li>Travel Industry Forecasting: Demanding AI Strategies Model</li>
+            <li>Soil Nutrient Balancing Model</li>
+          </ul>
+        </div>
+
+        <div class="card section">
+          <h2>Education</h2>
+          <ul class="plist muted">
+            <li>PhD — Generative & Agentic AI (Present) — Kalasalingam Academy of Research and Education</li>
+            <li>MCA — Computer Applications (2012–2015) — SRM University, Chennai</li>
+            <li>BSc — Computer Science (2009–2012) — MK University, Madurai</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Right column (sidebar) -->
+      <aside class="right-col">
+        <div class="card small section">
+          <h2>Contact</h2>
+          <div class="contact-list">
+            <div class="muted">Email</div>
+            <a href="mailto:ramarexplorer@gmail.com">ramarexplorer@gmail.com</a>
+
+            <div style="height:8px"></div>
+            <div class="muted">Phone</div>
+            <a href="tel:+919790843015">+91 9790843015</a>
+
+            <div style="height:8px"></div>
+            <div class="muted">Location</div>
+            <div class="muted">Madurai, Tamilnadu, India</div>
+          </div>
+
+          <!-- Resume download: points to uploaded resume path -->
+          <div style="margin-top:14px">
+            <a class="download-resume" href="/mnt/data/Resume (1).pdf" download>Download Resume (PDF)</a>
+            <!-- Note: your uploaded PDF is used as the resume link. -->
+          </div>
+        </div>
+
+        <div class="card small section">
+          <h2>Skills & Tools</h2>
+          <div class="skills" aria-hidden="true">
+            <span class="skill">Python</span>
+            <span class="skill">Deep Learning (CNN/RNN/LSTM)</span>
+            <span class="skill">Generative Models (GAN/Diffusion)</span>
+            <span class="skill">NLP & Chatbots</span>
+            <span class="skill">Reinforcement Learning</span>
+            <span class="skill">Data Analytics</span>
+            <span class="skill">HTML/CSS/JS/PHP</span>
+            <span class="skill">Curriculum Design</span>
+          </div>
+        </div>
+
+        <div class="card small section">
+          <h2>Links</h2>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/ramar-bose-0a60a4132/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/ramar92" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Content based on resume. Downloadable PDF is linked from the uploaded file. :contentReference[oaicite:1]{index=1}
+    </footer>
+  </main>
+</body>
+</html>
